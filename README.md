@@ -2,7 +2,7 @@ A reactjs project I was working on required the use of stars to display ratings.
 
 There are lots of ways to solve this requirement but this piece of code is the solution I implemented. It makes use of svg loops. Additionally empty stars are also accounted for to help with UX i.e it is easier to recognize 4 star rating when the 5th star is present but with a complementary color.
 
-To demonstrate: ( * * * * - ) is slightly easier to interprete than only displaying 4 stars ( * * * * ), especially when you have a lot of UI cards on the screen making use of this component.
+To demonstrate: ( * * * * o ) is slightly easier to visually interprete than only displaying 4 stars ( * * * * ), especially when you have a lot of UI cards on the screen making use of this component. Rather than count 4 or 8 or 9 stars, the brain simply notices the 1 or 2 stars missing and arrives at the answer.
 
 To use this, simply import into the needed parent component and pass the rating as a prop number.
 
